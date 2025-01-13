@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to itechfuture.co.uk</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: white;
+    }
+    header {
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    h1 {
+      font-size: 3em;
+    }
+    p {
+      font-size: 1.5em;
+    }
+    footer {
+      margin-top: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hello, World!</h1>
+    <p id="welcome-message">Welcome to itechfuture.co.uk</p>
+  </header>
+  <main>
+    <p id="dynamic-message">Loading...</p>
+  </main>
+  <footer>
+    <p>&copy; 2025 itechfuture.co.uk</p>
+  </footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const dynamicMessage = document.getElementById("dynamic-message");
+      
+      const getTimeBasedGreeting = () => {
+        const hour = new Date().getHours();
+        if (hour < 12) return "Good Morning!";
+        if (hour < 18) return "Good Afternoon!";
+        return "Good Evening!";
+      };
+
+      dynamicMessage.textContent = getTimeBasedGreeting();
+    });
+  </script>
+</body>
+</html>
