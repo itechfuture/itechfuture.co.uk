@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(125, 63, 36);
+    background-color: rgb(62, 62, 62);
     text-align: center; /* Aligns text globally */
   }
   h1 {
@@ -27,4 +27,3 @@ a.centered-link {
     transition: background-color 0.3s, color 0.3s;
   }
 
-  
