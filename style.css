@@ -9,8 +9,8 @@ body {
   }
   p {
     color: rgb(255, 255, 255);
-    font-family: arial;
-    font-size: 130%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
   }
 
   /* Center and style the hyperlink */
