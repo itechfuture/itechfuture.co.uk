@@ -21,9 +21,5 @@ a.centered-link {
     color: rgb(255, 255, 255);
     margin-top: 10px;
     padding: 10px 20px;
-    border: 0px solid rgb(52, 52, 52); /* Optional: Adds a border */
-    border-radius: 0px; /* Optional: Rounds the corners */
-    background-color: #202124; /* Subtle background */
-    transition: background-color 0.3s, color 0.3s;
   }
 
