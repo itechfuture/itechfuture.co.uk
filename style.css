@@ -23,3 +23,7 @@ a.centered-link {
     padding: 10px 20px;
   }
 
+  .my-image {
+    width: 300px; /* Sets the width of the image */
+    height: auto; /* Keeps the aspect ratio of the image */
+  }
