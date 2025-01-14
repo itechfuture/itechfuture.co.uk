@@ -14,19 +14,36 @@
       color: white;
     }
     header {
-      padding: 20px;
-      background-color: rgba(0, 0, 0, 0.5);
-    }
-    h1 {
-      font-size: 3em;
-    }
-    p {
-      font-size: 1.5em;
-    }
-    footer {
-      margin-top: 20px;
-      font-size: 0.9em;
-    }
+            text-align: center;
+            padding: 20px;
+        }
+        .diary-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .diary-post {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #444;
+            padding-bottom: 20px;
+        }
+        .diary-post img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+        }
+        a {
+            color: #00bfff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
   </style>
 </head>
 <body>
@@ -34,7 +51,21 @@
     <h1>IT Skills Diary</h1>
     <p id="welcome-message">Here you will find my diary/posts that showcase my latest projects such as homelab testing, coding projects like this HTML static website and much more!</p>
     <a href="index.html">Take me back home</a>
-</header>
+  </header>
+
+  <div class="diary-container">
+      <!-- Diary Post 1 -->
+      <div class="diary-post">
+          <h2>test diary post</h2>
+          <p>Test paragraphy 123 321 aaabbbcccdddeeefffggghhh:</p>
+          <ul>
+              <li>line 1.</li>
+              <li>line 2.</li>
+              <li>line 3.</li>
+          </ul>
+          <img src="insertscreenshot.png" alt="Insert screenshot">
+      </div>
+
   <main>
     <p id="dynamic-message">Loading...</p>
   </main>
