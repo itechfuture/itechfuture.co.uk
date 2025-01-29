@@ -44,6 +44,18 @@ a {
   transition: color 0.3s ease-in-out;
 }
 
+.diary-links {
+  display: flex;
+  flex-direction: column; /* Stacks elements vertically */
+  align-items: center; /* Centers buttons */
+  gap: 10px; /* Adds space between buttons */
+}
+
+.diary-links a {
+  width: 80%; /* Adjust button width */
+  text-align: center;
+}
+
 a:hover {
   color: #00e5ff;
   text-decoration: underline;
