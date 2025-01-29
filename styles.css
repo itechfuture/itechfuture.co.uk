@@ -123,3 +123,10 @@ footer {
     width: 90%;
   }
 }
+/* Dynamic Message */
+#dynamic-message {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffaa00;
+  margin-top: 20px;
+}
